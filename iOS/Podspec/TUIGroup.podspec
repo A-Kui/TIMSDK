@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'CommonModel' do |commonModel|
     commonModel.source_files = '**/TUIGroup/CommonModel/*.{h,m,mm}'
-    commonModel.dependency 'TXIMSDK_Plus_iOS','7.2.4123'
+    commonModel.dependency 'TXIMSDK_Plus_iOS_Bitcode','7.2.4123'
     commonModel.dependency 'TUICore','7.2.4123'
     commonModel.dependency 'TIMCommon','7.2.4123'
     commonModel.dependency 'ReactiveObjC'
